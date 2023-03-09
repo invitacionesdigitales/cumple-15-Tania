@@ -1,7 +1,8 @@
 * body {
     padding: 0;
     box-sizing: border-box;
-    background-image: url(./imagenes/efecto-polvo-1.png);
+    background-image: url(./imagenes/papel.jpg);
+    background-size: 100%;
   }
   
   /*PORTADA*/
@@ -125,15 +126,7 @@ background: linear-gradient(0deg, rgba(143,143,143,0.3533788515406162) 0%, rgba(
       width: 90%;
       flex-wrap: wrap;
     }
-    .container__footer{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      max-width: 1200px;
-      margin: auto;
-      margin-top: 100px;
-      background-color: #ffffff;
-  }
+  
   
   
  
@@ -168,6 +161,14 @@ background: linear-gradient(0deg, rgba(143,143,143,0.3533788515406162) 0%, rgba(
       margin: 10%;
       font-family: 'Rochester', cursive;
   }
+  .info h4 {
+    margin-top: 10%;
+    text-align: center;
+    color: #484848;
+    font-size: 28px;
+    font-family:'Amatic SC', cursive;
+    
+  }
   
   }
   
@@ -181,20 +182,21 @@ background: linear-gradient(0deg, rgba(143,143,143,0.3533788515406162) 0%, rgba(
     
   }
   .info h4 {
+    margin-top: 10%;
     text-align: center;
     color: #484848;
     font-size: 28px;
-    font-family:'Amatic SC', cursive; 
+    font-family:'Amatic SC', cursive;
     
   }
   .info p{
     text-align: center;
     color: #686868;
-    font-size: 16px;
+    font-size: 18px;
     padding: 15%;
     font-family: 'Playfair Display', serif;
-    background-color: #f9f6e3;
-    
+    margin-top: -10%;
+
   }
   
   .tania{
@@ -224,18 +226,21 @@ background: linear-gradient(0deg, rgba(143,143,143,0.3533788515406162) 0%, rgba(
     border: none;
     color: rgb(64, 63, 63);
     background: rgb(22,36,36);
-    background: rgb(143,143,143);
+    background: rgba(143, 143, 143, 0.833);
     background: linear-gradient(0deg, rgba(143,143,143,0.3533788515406162) 0%, rgba(184,184,184,1) 100%);
     border-radius: 7px;
-    box-shadow: 1px 1px 30px -5px rgb(119, 119, 119);
+    box-shadow: 1px 1px 30px -5px rgb(170, 170, 170);
     cursor: pointer;
     margin-left: 34%;
   }
   
-  
-  .boton {
-    width: 20px;
-    transition: ease 2s;
+  .boton2{
+    margin-top: -10%;
+  }
+  .percha{
+    width: 25%;
+    margin-left: 38%;
+
   }
   
   
